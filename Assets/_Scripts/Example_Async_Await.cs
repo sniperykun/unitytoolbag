@@ -15,7 +15,6 @@ using System;
     Unity does not automatically stop async tasks that run on managed threads when you exit Play Mode.
     U should cancel by your own code
 
-
     if u want to use real-multi-threading-task
         u should use Task.Run()
         
@@ -32,7 +31,6 @@ using System;
             void OnCompleted(){}
             void UnsafeOnCompleted(){}
 */
-
 
 // U need to catch task exception manually
 // or exception will be hidden
